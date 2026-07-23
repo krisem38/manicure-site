@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маникюр Минск - Анна</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Маникюр в Минске</h1>
+            <p>Аккуратно, стерильно, красиво. Запись за 1 минуту.</p>
+            <button class="btn_open" onclick="openModal()">Записаться</button>
+
+            <div id="modal" class="modal">
+                <div class="modal_content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <h2>Записаться</h2>
+                    <form id="form">
+                        <input type="text" id="name" placeholder="Ваше имя" required>
+                        <input type="tel" id="phone" placeholder="Телефон" required>
+                        <input type="email" id="email" placeholder="Email">
+                        <select id="service">
+                            <option value="Маникюр">Маникюр</option>
+                            <option value="Педикюр">Педикюр</option>
+                            <option value="Покрытие гель-лаком">Покрытие кель-лаком</option>
+                        </select>
+                        <textarea id="comment" placeholder="Комментарий"></textarea>
+                        <button type="submit" id="submitBtn">Отправить заявку</button>
+                    </form>
+                    <div id="status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <div class="icon">🧼</div>
+                <h3>Стерильно</h3>
+                <p>Все инструменты проходят полную обработку</p>
+            </div>
+
+            <div class="feature">
+                <div class="icon">🕓</div>
+                <h3>Быстро</h3>
+                <p>Маникюр с покрытием за 1 час</p>
+            </div>
+
+            <div class="feature">
+                <div class="icon">💅🏻</div>
+                <h3>Красиво</h3>
+                <p>Любой дизайн по вашим пожеланиям</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="container">
+            <h2>Услуги и цены</h2>
+
+           <div class="items">
+             <div class= "price__item">
+                <h3>Маникюр гигиенический</h3>
+                <p>40 BYN</p>
+            </div>
+
+            <div class= "price__item">
+                <h3>Педикюр</h3>
+                <p>60 BYN</p>
+            </div>
+
+            <div class= "price__item">
+                <h3>Покрые гель-лак</h3>
+                <p>55 BYN</p>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <div class="reviews_grid">
+                <div class="review">
+                    <p class="review-text">Анна - волшебница! Очень аккуратно, красиво, приятная атмосфера. Хожу только к ней!</p>
+                    <p class="review-author">Марина</p>
+                </div>
+
+                <div class="review">
+                    <p class="review-text">Делала маникюр перед свадьбой. Продержался больше месяца! Огромное спасибо за качество!!!</p>
+                    <p class="review-author">Ольга</p>
+                </div>
+
+                <div class="review">
+                    <p class="review-text">Лучший мастер в городе. Всегда чисто, инструменты стерильные, вскрываются передо мной, вкусно пахнет, цены более чем приятные!</p>
+                    <p class="review-author">Татьяна</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>г. Минск, ул. Московская, д. 35</p>
+            <p>+375 29 123-45-67</p>
+            <a href="https://t.me/k_semyonovaa" class="btn">Написать в Telegram</a>
+        </div>
+    </section>
+
+
+</body>
+
+<script src="/file.js"></script>
+<script src="/tg.js"></script>
+</html>
