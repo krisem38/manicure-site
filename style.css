@@ -24,7 +24,7 @@ body {
     background-color: rgba(0, 0, 0, 0.064);
     background-blend-mode: multiply; */
     background: linear-gradient(to bottom, rgba(225, 225, 225, 0) 70%, #f8f8f8 100%),
-    url('Pinterest.jpg') center/cover no-repeat;
+    url('img/Pinterest.jpg') center/cover no-repeat;
     text-align:  center;
     padding: 80px 20px;
     height: 50vh;
@@ -224,7 +224,7 @@ body {
 .price {
     background: linear-gradient(to bottom, #f8f8f8 0%, rgba(225, 225, 225, 0) 30%),
     linear-gradient(to top, #f8f8f8 0%, rgba(248, 248, 248, 0) 30%),
-    url('Pinterest.jpg') center/cover no-repeat;
+    url('img/Pinterest.jpg') center/cover no-repeat;
     text-align:  center;
     padding: 80px 20px;
 }
